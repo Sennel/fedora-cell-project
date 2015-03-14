@@ -1,0 +1,22 @@
+How-To use the installer
+or
+How to install Cell SDK on Fedora 9 the easy way
+
+= Introduction =
+In this page I will explain how to use our SDK installer for fedora 9
+
+*Having fedora 9 already installed*
+
+=Easy method=
+Download the *download_and_install.sh* and run it
+
+= Harder method =
+  * Installing the SDK
+  # Download the *Cell_SDK00 - Cell_SDK12* and the *merge.sh* file (checksum if wanted) OR use the *downloadermerge.sh* which downloads and merges.
+  # Place the files plus the merge script in the same folder and execute the script. (with {{{ #sh merge.sh}}} )
+  ## (Optional, verify the new tar with the checksum.)
+  # Untar the archive somewhere
+  # Execute the installsdk.sh script and follow the instructions(internet required).
+  # Execute the Xulrunner bugfix(internet required).
+
+Laugh with joy at the awesomeness of the cell processor, because you have the power to control it.
